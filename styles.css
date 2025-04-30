@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -284,11 +291,48 @@ footer {
 
     /* General Sections */
     section {
-        padding: 4rem 1rem;
+        padding: 4rem 0.5rem;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
     .content {
-        padding: 1.5rem;
+        padding: 1rem;
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .shop-container,
+    .about-container,
+    .products-grid,
+    .gallery-grid,
+    .contact-container {
+        width: 100%;
+        margin: 0;
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+    }
+
+    #hero {
+        width: 100vw;
+        margin: 0;
+        padding: 0 0.5rem;
+        box-sizing: border-box;
+    }
+
+    nav {
+        padding: 0.5rem 2%;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     /* About Section */
